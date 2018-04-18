@@ -18,6 +18,11 @@ class River
   def loose_fish(fish)
     index = @total_fish.index(fish)
         @total_fish.slice!(index, 1)
-      end
+  end
+
+# got stuck with this one too
+  def loose_fish_when_bear_takes_it(fish)
+
+  end
 
 end
